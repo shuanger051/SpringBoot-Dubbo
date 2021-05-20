@@ -5,11 +5,11 @@ spring:
   dubbo:
     application:
       name: dubbo-consumer
-      registry: zookeeper://192.168.3.199:2181
+      registry: zookeeper://127.0.0.1:2181
 
   #rabbitMQ 参数配置
   rabbitmq:
-    host: 192.168.3.199
+    host: 127.0.0.1
     port: 5672
     username: admin
     password: 123456

@@ -4,19 +4,19 @@ server:
 spring:
   #配置数据库连接
   datasource:
-    url: jdbc:mysql://192.168.3.199:3306/mydb?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/mydb?characterEncoding=utf8&useSSL=false
     username: root
-    password: 123456
+    password: 12345678
     driver-class-name: com.mysql.cj.jdbc.Driver
   #dubbo 参数配置
   dubbo:
     application:
      name: dubbo-provider
-     registry: zookeeper://192.168.3.199:2181
+     registry: zookeeper://127.0.0.1:2181
 
   #rabbitMQ 参数配置
   rabbitmq:
-    host: 192.168.3.199
+    host: 127.0.0.1
     port: 5672
     username: admin
     password: 123456
