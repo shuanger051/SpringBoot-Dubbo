@@ -30,7 +30,7 @@
 
 
 <contextName>xcloud-print</contextName>
-<property name="LOG_PATH" value="F://log//cloud-oauth-logs" />
+<property name="LOG_PATH" value="/Users/caijianlong/GitPro/SpringBoot-Dubbo/log/cloud-oauth-logs" />
 <!--设置系统日志目录-->
 <property name="APPDIR" value="logs" />
 
